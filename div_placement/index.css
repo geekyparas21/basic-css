@@ -10,12 +10,18 @@ body,html{
 body{
     background-color: rgba(0, 0, 0, 0.762);
     color: antiquewhite;
-    /* display: flex; */
-    /* align-items: center;  for vertically alignment */
-    /* justify-content: center; for horizontal alignment */
+    display: flex;
+    align-items: center;  /*for vertically alignment*/
+    justify-content: center; /*for horizontal alignment */
 }
 
-main{
+#main1{
+    display: flex;
+    align-items: center;  /* for vertically alignment */
+    justify-content: center; /* for horizontal alignment */
+}
+
+#main2{
     display: flex;
     align-items: center;  /* for vertically alignment */
     justify-content: center; /* for horizontal alignment */
