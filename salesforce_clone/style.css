@@ -1,0 +1,259 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+    width:100%;
+    height:100%
+}
+
+#header{
+    position:fixed;
+    width:100%;
+    height:15vh;
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+#fakeheader{
+    width:100%;
+    height:15vh;
+    background-color: aqua;
+}
+
+#logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:5%;
+    margin-left: 3%;
+    margin-right: 15px;
+}
+#logo img{
+    height:80%;
+    width:80%;
+    font-size: large;
+}
+
+
+.texts{
+    height:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(4, 4, 65);
+    font-weight:bolder;
+    margin:1%;
+    font-size: medium;
+}
+.texts:hover{
+    color:rgb(37, 135, 135)
+}
+.end_items{
+    width:30%;
+    margin-left: 10% ;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.contactdet{
+    width:30%;
+    color:rgb(37, 91, 167);
+    font-weight:lighter;
+    margin-right:10%;
+}
+
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    padding-bottom: 10px;;
+}
+
+#number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end_logo{
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(4, 4, 65);
+}
+
+#search{
+    width:10%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:20%;
+    font-size: xx-large;
+}
+
+#region{
+    width:10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:20%;
+    font-size: xx-large;
+}
+
+#login{
+    width:10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:20%;
+    font-size:xx-large;
+}
+
+.butt{
+    width:50%;
+    /* background-color: green;     */
+}
+
+#try{
+    width:90%;
+    margin:30%;
+    height:60px;
+    background-color: green;
+    font-size:large;
+    color: white;
+    border-radius: 5%;
+}
+
+#page1{
+    width:100%;
+    height:85vh;
+    background-color:chartreuse;
+}
+
+#announcement{
+    width:100%;
+    height:7vh;
+    background-color: rgb(4, 4, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.about{
+    width:100%;
+    height:78vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#why{
+    width:50%;
+    height:78vh;
+    background-color: white;
+}
+
+
+#heading{
+    width:60%;
+    height:30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:60px;
+    /* background-color: brown; */
+    margin-left: 15%;
+    margin-top: 5%;
+    font-weight: bold;
+    color:rgb(4, 4, 65);
+}
+
+#context{
+    margin-top: 4%;
+    width:70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 15%;
+    text-align: left;
+    /* background-color: chartreuse; */
+}
+
+.button{
+    width:70%;
+    height: 80px;;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: brown; */
+    margin-left: 16%;
+    margin-top: 5%;
+    border-radius: 5%;
+}
+
+#free_trial{
+    font-size: larger;
+    width: 200px;
+    border-radius: 8%;
+    background-color: rgb(29, 146, 213);
+    color: white;
+}
+
+#watch_demo{
+    font-size: larger;
+    width: 200px;
+    margin-left: 8%;
+    border-radius: 5%;
+    background-color: rgb(29, 146, 213);
+    color: white;
+}
+
+
+#demo{
+    width:50%;
+    height:78vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#video {
+    width: 80%;
+    height: 50vh;
+    background-color: aliceblue;
+    border-radius: 7%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1; /* Bring it in front */
+}
+
+#image {
+    position: absolute;
+    width: 50%;
+    height: 78vh;
+    border-radius: 50%;
+    background-image: url(https://images.unsplash.com/photo-1714544933303-254f3965add2?q=80&w=2134&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); /* ✅ Add your image here */
+    background-size: cover;
+    background-position: center;
+    z-index: 0; /* Push it behind the video */
+}
